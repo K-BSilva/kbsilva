@@ -1,0 +1,97 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:rgb(247, 247, 247);
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Pompiere', cursive;
+}
+
+ul{
+    list-style: none;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+}
+
+body{
+    background-image: linear-gradient(to top, #845EC2, #C197FF, #00C9A7, #005B44);
+    background-size: cover;
+    /*background-image: url(./img/bk5.jpg);
+    background-repeat: no-repeat;
+    background-position:center center fixed;*/
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    padding: 10px;
+}
+
+.container{
+    text-align: center;
+}
+.container .name h1{
+    font-size: 60px;
+}
+
+.container .name h5{
+     font-size: 20px;
+}
+
+.flex{
+   display: flex;
+}
+
+.flex div{
+    margin: 16px;
+    flex-basis: 100%;
+}
+
+.flex img{
+    max-width: 415px;
+    border-radius: 10px 20px;
+    padding: 10px;
+}
+
+.flex h5{
+    font-size: 20px;
+    color:#01100c;
+    padding: 10px;
+    font-style: italic;
+}
+
+p{
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    color:#01100c;
+    font-family: 'Pompiere', cursive;
+    font-weight: bold;
+    
+}
+
+.rodape{
+   background: #008368;
+    padding: 2px;
+    font-size: 15px;
+    color: #03221a;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 15px;
+}
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulario de contato</title>
+</head>
+<body>
+    <form action="">
+        <h1>Contate-nos</h1>
+        <div class="area-input">
+            <label for="">Nome</label>
+            <input type="text" >
+        </div>
+
+        <div class="area-input">
+            <label for="">Email</label>
+            <input type="text">
+        </div>
+
+        <div class="area-input">
+            <label for="">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="50"></textarea>
+        </div>
+        <button>Enviar</button>
+    </form>  
+    
+</body> 
+</html>
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pompiere', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top, #845EC2, #C197FF, #00C9A7, #005B44);
+    background-size: cover;
+}
+form{
+    width: 300px;
+    border-radius:3px;
+    background-color: #f8fdfc;
+    padding:20px;
+}
+
+form h1{
+    font-size: 40px;
+    color:#005B44;
+    margin-bottom: 10px;
+}
+
+form .area-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    height: 35px;
+    margin-top: 20px;
+}
+
+form .area-input label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    color:#005B44;
+    transform: translateY(-70%);
+}
+
+form .area-input input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 2px solid #00C9A7;
+    color: #00C9A7;
+    outline: none;
+}
+
+form .area-input textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 2px solid #00C9A7;
+    resize: none;
+    outline: none;
+}
+
+form button{
+    margin-top:20px;
+    width:100%;
+    height:35px;
+    font-size: 20px;
+    background-color:  #00C9A7;
+    color: #005B44;
+    border:none;
+    transition:.3s;
+    cursor: pointer;
+}
+
+form button:hover{
+   filter:brightness(.9);
+}
+
+</style>
